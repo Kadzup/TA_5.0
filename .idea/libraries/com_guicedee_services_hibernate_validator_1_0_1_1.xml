@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="com.guicedee.services:hibernate-validator:1.0.1.1" type="repository">
+    <properties maven-id="com.guicedee.services:hibernate-validator:1.0.1.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-validator/1.0.1.1/hibernate-validator-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-core/1.0.1.1/hibernate-core-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jboss-logmanager/1.0.1.1/jboss-logmanager-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/json/javax.json-api/1.1.4/javax.json-api-1.1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.persistence-api/1.0.1.1/jakarta.persistence-api-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-commons-annotations/1.0.1.1/hibernate-commons-annotations-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jandex/1.0.1.1/jandex-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javassist/1.0.1.1/javassist-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/dom4j/1.0.1.1/dom4j-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.xml.bind-api/1.0.1.1/jakarta.xml.bind-api-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.activation/1.0.1.1/jakarta.activation-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.activation/1.0.1.1/javax.activation-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.validation-api/1.0.1.1/jakarta.validation-api-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.2/stax-ex-1.8.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.security.jacc/1.0.1.1/javax.security.jacc-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.servlet-api/1.0.1.1/javax.servlet-api-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.el/1.0.1.1/jakarta.el-1.0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/classmate/1.0.1.1/classmate-1.0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-validator/1.0.1.1/hibernate-validator-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-core/1.0.1.1/hibernate-core-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jboss-logmanager/1.0.1.1/jboss-logmanager-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/json/javax.json-api/1.1.4/javax.json-api-1.1.4-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.persistence-api/1.0.1.1/jakarta.persistence-api-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/hibernate-commons-annotations/1.0.1.1/hibernate-commons-annotations-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jandex/1.0.1.1/jandex-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javassist/1.0.1.1/javassist-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/dom4j/1.0.1.1/dom4j-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.xml.bind-api/1.0.1.1/jakarta.xml.bind-api-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.activation/1.0.1.1/jakarta.activation-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.activation/1.0.1.1/javax.activation-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.validation-api/1.0.1.1/jakarta.validation-api-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.2/stax-ex-1.8.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.security.jacc/1.0.1.1/javax.security.jacc-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/javax.servlet-api/1.0.1.1/javax.servlet-api-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/jakarta.el/1.0.1.1/jakarta.el-1.0.1.1-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/guicedee/services/classmate/1.0.1.1/classmate-1.0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
