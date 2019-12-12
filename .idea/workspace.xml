@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7848a80d-4952-4aa8-b3c6-e7fdd9da9c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DB/DataBaseControll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_5.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TA_5.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Controller/CountryComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Controller/Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/IO/StreamsCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/IO/serializDeserialiIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Client$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Country$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Country.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Location$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Order$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Service$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Tour$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Tour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Worker$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Models/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestCountry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestSerializDeserializIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestStreamsAndCompares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestsTour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_4.0/Tests/TestsWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataBase/PostgreSQL.java" beforeDir="false" />
-    </list>
+    <list default="true" id="7848a80d-4952-4aa8-b3c6-e7fdd9da9c45" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DB/DataBaseControll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="501">
               <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -340,7 +309,7 @@
       <workItem from="1575921381788" duration="6455000" />
       <workItem from="1575929062543" duration="845000" />
       <workItem from="1575998551046" duration="4032000" />
-      <workItem from="1576175716892" duration="2371000" />
+      <workItem from="1576175716892" duration="2444000" />
     </task>
     <servers />
   </component>
@@ -353,10 +322,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13736000" />
+    <option name="totallyTimeSpent" value="13809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
@@ -368,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -566,7 +535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DB/DataBaseControll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="501">
           <caret line="150" column="35" lean-forward="true" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
