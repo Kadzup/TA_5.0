@@ -7,9 +7,15 @@ import java.sql.*;
 public class DataBaseControll {
     public DataBaseControll(){}
 
-    private final String url = "jdbc:postgresql://localhost/TravelAgency";
-    private final String user = "postgres";
-    private final String password = "7336Alexco12";
+    public DataBaseControll(String URL, String USER, String PASS){
+        this.url = URL;
+        this.user = USER;
+        this.password = PASS;
+    }
+
+    private String url = "jdbc:postgresql://localhost/Travel_Agnecy";
+    private String user = "postgres";
+    private String password = "7336Alexco12";
 
     /**
      * Connect to the PostgreSQL database
@@ -105,7 +111,7 @@ public class DataBaseControll {
         }
     }
 
-    public void FindOrderById(int actorID) {
+    public void FindOrderById(int orderId) {
         String SQL = "SELECT * "
                 + "FROM Order "
                 + "WHERE id = ?";
@@ -113,7 +119,7 @@ public class DataBaseControll {
         try (Connection conn = connect();
              PreparedStatement pstmt = conn.prepareStatement(SQL)) {
 
-            pstmt.setInt(1, actorID);
+            pstmt.setInt(1, orderId);
             ResultSet rs = pstmt.executeQuery();
             displayOrder(rs);
         } catch (SQLException ex) {
