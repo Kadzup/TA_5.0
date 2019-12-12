@@ -1,11 +1,20 @@
 package Controller;
 import java.io.IOException;
 import java.time.LocalDate;
+
+import DB.DataBaseControll;
 import Models.*;
-import IO.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Interface{
+
+    public Interface(){}
+
     public static void main(String args[]) throws IOException {
+
+        Interface interf = new Interface();
 
         Client client = new Client.Builder()
                 .setBDay(LocalDate.of(2019,10, 10))
@@ -73,12 +82,10 @@ public class Interface{
                 .setTour(tour)
                 .build();
 
-        serializDeserialiIO jPars = new serializDeserialiIO();
-        String path = "c://";
-        jPars.SerializeJson(worker, path);
-        worker = jPars.DeserializeJson(worker, "c://worker_object-3226343206514262163.json");
+        DataBaseControll db = new DataBaseControll();
 
-        jPars.SerializeXml(client, path);
-        client = jPars.DeserializeJson(client, "client_object-7055649794870561524");
+        db.getCountry("%a%",0);
     }
+
+
 }

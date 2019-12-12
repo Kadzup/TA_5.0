@@ -26,5 +26,6 @@
     <orderEntry type="library" name="com.eurodyn.qlack2.util:qlack2-util-hibernate-validator:2.3.5" level="project" />
     <orderEntry type="library" name="com.guicedee.services:hibernate-validator:1.0.1.1" level="project" />
     <orderEntry type="library" name="com.dripower:postgresql-async_2.11:0.3.109" level="project" />
+    <orderEntry type="library" name="postgresql-42.2.9" level="project" />
   </component>
 </module>
