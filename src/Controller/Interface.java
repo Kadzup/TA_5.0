@@ -22,7 +22,7 @@ public class Interface{
                 .setFName("Dmytro")
                 .setLName("Stefurak")
                 .setPaymentInfo("0000-0000-0000-0000")
-                .setPhone("+380 5088 340 11")
+                .setPhone("380508834011")
                 .build();
 
         Worker worker = new Worker.Builder()
@@ -84,7 +84,12 @@ public class Interface{
 
         DataBaseControll db = new DataBaseControll();
 
-        db.getCountry("%a%",0);
+        db.getCountry("",1);
+        db.getWorkers();
+        System.out.println("Clients: " + db.getClientCount());
+        db.FindOrderById(6);
+        db.updateClient(client);
+        db.closeConnect();
     }
 
 

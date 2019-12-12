@@ -17,26 +17,37 @@ public class DataBaseControll {
     private String user = "postgres";
     private String password = "7336Alexco12";
 
+    private Connection curConn;
+
     /**
      * Connect to the PostgreSQL database
      *
      * @return a Connection object
      */
     public Connection connect() {
-        Connection conn = null;
+        curConn = null;
         try {
-            conn = DriverManager.getConnection(url, user, password);
-            System.out.println("Connected to the PostgreSQL server successfully.");
+            curConn = DriverManager.getConnection(url, user, password);
+            System.out.println("\n[DB]\tConnected to the PostgreSQL server successfully.\n");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
+        return curConn;
+    }
 
-        return conn;
+    public void closeConnect(){
+        try {
+            curConn.close();
+            if(curConn.isClosed())
+                System.out.println("\n[DB]\tConnection closed\n");
+        } catch (SQLException ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 
     public void getCountry(String pattern, int id) {
 
-        String SQL = "SELECT * FROM Country";
+        String SQL = "SELECT * FROM \"Country\"";
         try (Connection conn = this.connect();
              PreparedStatement pstmt = conn.prepareStatement(SQL)) {
 
@@ -55,7 +66,7 @@ public class DataBaseControll {
     }
 
     public int getClientCount() {
-        String SQL = "SELECT count(*) FROM Client";
+        String SQL = "SELECT count(*) FROM \"Client\"";
         int count = 0;
 
         try (Connection conn = connect();
@@ -71,8 +82,8 @@ public class DataBaseControll {
     }
 
     public void getWorkers() {
-
-        String SQL = "SELECT id, f_name, s_name, b_day, salary, \"position\", address, phone FROM Worker";
+        // w.id, w.name, w.s_name, w.b_day, w.salary, w."position", w.address, w.phone
+        String SQL = "SELECT w.id, w.name, w.s_name, w.b_day, w.salary, w.\"position\", w.address, w.phone FROM \"Worker\" AS w";
 
         try (Connection conn = connect();
              Statement stmt = conn.createStatement();
@@ -85,13 +96,14 @@ public class DataBaseControll {
 
     private void displayWorker(ResultSet rs) throws SQLException {
         while (rs.next()) {
-            System.out.println(rs.getString("id") + "\t"
-                    + rs.getString("f_name") + "\t"
-                    + rs.getString("s_name") + "\t"
-                    + rs.getString("b_day") + "\t"
-                    + rs.getString("salary") + "\t"
-                    + rs.getString("position") + "\t"
-                    + rs.getString("address") + "\t"
+            //w.id, w.name, w.s_name, w.b_day, w.salary, w."position", w.address, w.phone
+            System.out.println(rs.getString("id") + "\t|"
+                    + rs.getString("name") + "\t|"
+                    + rs.getString("s_name") + "\t|"
+                    + rs.getString("b_day") + "\t|"
+                    + rs.getString("salary") + "\t|"
+                    + rs.getString("position") + "\t|"
+                    + rs.getString("address") + "\t|"
                     + rs.getString("phone"));
 
         }
@@ -100,12 +112,12 @@ public class DataBaseControll {
     private void displayOrder(ResultSet rs) throws SQLException {
         while (rs.next()) {
             //id, tour_id, worker_id, client_id, order_date, dep_date, arr_date
-            System.out.println(rs.getString("id") + "\t"
-                    + rs.getString("tour_id") + "\t"
-                    + rs.getString("worker_id") + "\t"
-                    + rs.getString("client_id") + "\t"
-                    + rs.getString("order_date") + "\t"
-                    + rs.getString("dep_date") + "\t"
+            System.out.println(rs.getString("id") + "\t|"
+                    + rs.getString("tour_id") + "\t|"
+                    + rs.getString("worker_id") + "\t|"
+                    + rs.getString("client_id") + "\t|"
+                    + rs.getString("order_date") + "\t|"
+                    + rs.getString("dep_date") + "\t|"
                     + rs.getString("arr_date"));
 
         }
@@ -113,7 +125,7 @@ public class DataBaseControll {
 
     public void FindOrderById(int orderId) {
         String SQL = "SELECT * "
-                + "FROM Order "
+                + "FROM \"Order\" "
                 + "WHERE id = ?";
 
         try (Connection conn = connect();
@@ -137,20 +149,22 @@ public class DataBaseControll {
      *                 .setPaymentInfo("0000000000000000")
      *                 .setPhone("380508834011")
      * */
-    public long insertClient(Client client) {
-        String SQL = "INSERT INTO \"Client\"(f_name, s_name, address, phone) "
-                + "VALUES(?,?,?,?)";
+    public long updateClient(Client client) {
+        String SQL = "UPDATE \"Client\"\n" +
+                "\tSET id=?, f_name=?, s_name=?, address=?, phone=?\n" +
+                "\tWHERE id = 1";
 
-        long id = 0;
+        long id = 1;
 
         try (Connection conn = connect();
              PreparedStatement pstmt = conn.prepareStatement(SQL,
                      Statement.RETURN_GENERATED_KEYS)) {
 
-            pstmt.setString(1, client.getfName());
-            pstmt.setString(2, client.getlName());
-            pstmt.setString(3, client.getPaymentInfo());
-            pstmt.setString(4, client.getPhone());
+            pstmt.setInt(1, 1);
+            pstmt.setString(2, client.getfName());
+            pstmt.setString(3, client.getlName());
+            pstmt.setString(4, client.getPaymentInfo());
+            pstmt.setString(5, client.getPhone());
 
             int affectedRows = pstmt.executeUpdate();
             // check the affected rows

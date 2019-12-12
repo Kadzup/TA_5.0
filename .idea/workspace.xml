@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7848a80d-4952-4aa8-b3c6-e7fdd9da9c45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_dripower_postgresql_async_2_11_0_3_109.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/com_dripower_postgresql_async_2_11_0_3_109.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TA_5.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TA_5.0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Controller/CountryComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Controller/CountryComparator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Controller/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Controller/Interface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/DB/DataBaseControll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/DB/DataBaseControll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/IO/StreamsCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/IO/StreamsCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/IO/serializDeserialiIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/IO/serializDeserialiIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/META-INF/TA_5.0.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Client$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Client$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Country$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Country$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Location$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Location$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Order$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Order$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Service$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Service$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Tour$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Tour$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Tour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Tour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Worker$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Worker$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Models/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Models/Worker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestCountry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestCountry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestSerializDeserializIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestSerializDeserializIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestStreamsAndCompares.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestStreamsAndCompares.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestsTour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestsTour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestsWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TA_5.0/Tests/TestsWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Interface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DB/DataBaseControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/DataBaseControll.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,7 +174,7 @@
       <workItem from="1575929062543" duration="845000" />
       <workItem from="1575998551046" duration="4032000" />
       <workItem from="1576175716892" duration="2444000" />
-      <workItem from="1576189455095" duration="311000" />
+      <workItem from="1576189455095" duration="2224000" />
     </task>
     <servers />
   </component>
